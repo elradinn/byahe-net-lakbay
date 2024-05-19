@@ -106,13 +106,13 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
                                     isBold
                                 />
                                 <MenuItem
-                                    onClick={() => router.push("/properties")}
-                                    label="Properties"
+                                    onClick={() => router.push("/activities")}
+                                    label="Activities"
                                     isBold
                                 />
                                 <MenuItem
                                     onClick={() => router.push("/reservations")}
-                                    label="Reservations"
+                                    label="Bookings"
                                     isBold
                                 />
                                 <div className="my-2 bg-neutral-200 w-full h-[1px]" />

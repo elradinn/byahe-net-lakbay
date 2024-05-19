@@ -88,7 +88,7 @@ export function Overview({
                     <Card x-chunk="dashboard-01-chunk-3">
                         <CardHeader className="flex flex-row items-center justify-between pb-2 space-y-0">
                             <CardTitle className="text-sm font-medium">
-                                Total Properties
+                                Total Activities
                             </CardTitle>
                             <Activity className="w-4 h-4 text-muted-foreground" />
                         </CardHeader>
@@ -109,7 +109,7 @@ export function Overview({
                             <div className="grid gap-2">
                                 <CardTitle>Transactions</CardTitle>
                                 <CardDescription>
-                                    Recent transactions from your properties.
+                                    Recent transactions from your activities.
                                 </CardDescription>
                             </div>
                             {/* <Button asChild size="sm" className="gap-1 ml-auto">
@@ -124,7 +124,7 @@ export function Overview({
                                 <TableHeader>
                                     <TableRow>
                                         <TableHead>Customer</TableHead>
-                                        <TableHead>Property</TableHead>
+                                        <TableHead>Activity Name</TableHead>
                                         <TableHead className="text-right">
                                             Amount (PHP)
                                         </TableHead>

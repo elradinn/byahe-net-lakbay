@@ -12,12 +12,9 @@ const PropertiesPage = async () => {
     if (!currentUser) {
         return (
             <ClientOnly>
-                <EmptyState
-                    title="Unauthorized"
-                    subtitle="Please login"
-                />
+                <EmptyState title="Unauthorized" subtitle="Please login" />
             </ClientOnly>
-        )
+        );
     }
 
     const listings = await getListings({ userId: currentUser.id });
@@ -26,21 +23,18 @@ const PropertiesPage = async () => {
         return (
             <ClientOnly>
                 <EmptyState
-                    title="No properties found"
-                    subtitle="Looks like you have no properties listed."
+                    title="No activities found"
+                    subtitle="Looks like you have no activities listed."
                 />
             </ClientOnly>
-        )
+        );
     }
 
     return (
         <ClientOnly>
-            <PropertiesClient
-                listings={listings}
-                currentUser={currentUser}
-            />
+            <PropertiesClient listings={listings} currentUser={currentUser} />
         </ClientOnly>
-    )
-}
+    );
+};
 
 export default PropertiesPage;

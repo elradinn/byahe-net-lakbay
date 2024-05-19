@@ -110,7 +110,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
                         {reservation?.user?.name}
                     </div>
                     <div className="font-semibold">PHP {price}</div>
-                    {!reservation && <div className="font-light">night</div>}
+                    {/* {!reservation && <div className="font-light">night</div>} */}
                 </div>
                 {/* <hr className="my-2" /> */}
                 {onAction && actionLabel && (

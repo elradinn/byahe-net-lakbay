@@ -27,10 +27,13 @@ const Input: React.FC<InputProps> = ({
     return (
         <div className="relative w-full">
             {formatPrice && (
-                <BiDollar
-                    size={24}
-                    className="absolute  text-neutral-700 top-5 left-2"
-                />
+                <div className="absolute text-neutral-700 top-5 left-2">
+                    <p>₱</p>
+                </div>
+                // <BiDollar
+                //     size={24}
+                //     className="absolute text-neutral-700 top-5 left-2"
+                // />
             )}
             <input
                 id={id}

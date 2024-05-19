@@ -155,7 +155,7 @@ const RentModal = () => {
         bodyContent = (
             <div className="flex flex-col gap-8">
                 <Heading
-                    title="Where is your place located?"
+                    title="Where is your activity located?"
                     subtitle="Help guests find you!"
                 />
                 <CountrySelect
@@ -171,17 +171,17 @@ const RentModal = () => {
         bodyContent = (
             <div className="flex flex-col gap-8">
                 <Heading
-                    title="Share some basics about your place"
-                    subtitle="What amenities do you have?"
+                    title="Share some info about your activity"
+                    // subtitle="What amenities do you have?"
                 />
                 <Counter
-                    title="Guests"
-                    subtitle="How many guests do you allow?"
+                    title="Time (in hour)"
+                    subtitle="Approximate hour time this activity will take?"
                     value={guestCount}
                     onChange={(val) => setCustomValue("guestCount", val)}
                 />
                 <hr />
-                <Counter
+                {/* <Counter
                     title="Rooms"
                     subtitle="How many rooms do you have?"
                     value={roomCount}
@@ -193,7 +193,7 @@ const RentModal = () => {
                     subtitle="How many bathrooms do you have?"
                     value={bathroomCount}
                     onChange={(val) => setCustomValue("bathroomCount", val)}
-                />
+                /> */}
             </div>
         );
     }
@@ -202,8 +202,8 @@ const RentModal = () => {
         bodyContent = (
             <div className="flex flex-col gap-8">
                 <Heading
-                    title="Add a photo of your place"
-                    subtitle="Show guests what your place looks like!"
+                    title="Add a photo of your activity"
+                    subtitle="Show guests what your activity looks like!"
                 />
                 <ImageUpload
                     value={imageSrc}
@@ -217,7 +217,7 @@ const RentModal = () => {
         bodyContent = (
             <div className="flex flex-col gap-8">
                 <Heading
-                    title="How would you describe your place?"
+                    title="How would you describe your activity?"
                     subtitle="Short and sweet works best!"
                 />
                 <Input
@@ -269,7 +269,7 @@ const RentModal = () => {
             actionLabel={actionLabel}
             secondaryActionLabel={secondaryActionLabel}
             secondaryAction={step === STEPS.CATEGORY ? undefined : onBack}
-            title="Byahe.net your home"
+            title="Byahe.net activity"
             body={bodyContent}
         />
     );

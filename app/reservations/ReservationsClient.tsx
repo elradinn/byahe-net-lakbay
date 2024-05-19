@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import axios from "axios";
 import { toast } from "react-hot-toast";
@@ -17,52 +17,45 @@ interface ReservationClientProps {
     currentUser?: SafeUser;
 }
 
-const ReservationsClient : React.FC<ReservationClientProps> = ({
+const ReservationsClient: React.FC<ReservationClientProps> = ({
     reservations,
-    currentUser
+    currentUser,
 }) => {
     const router = useRouter();
-    const [deletingId, setDeletingId] = useState('');
+    const [deletingId, setDeletingId] = useState("");
 
-    const onCancel = useCallback((id: string) => {
-        setDeletingId(id);
+    const onCancel = useCallback(
+        (id: string) => {
+            setDeletingId(id);
 
-        axios.delete(`/api/reservations/${id}`)
-        .then(() => {
-            toast.success("Reservation cancelled successfully! ❌");
-            router.refresh();
-        })
-        .catch(err => {
-            toast.error(err.message);
-        })
-        .finally(() => {
-            setDeletingId('');
-        })
-    }, [router]);
+            axios
+                .delete(`/api/reservations/${id}`)
+                .then(() => {
+                    toast.success("Reservation cancelled successfully! ❌");
+                    router.refresh();
+                })
+                .catch((err) => {
+                    toast.error(err.message);
+                })
+                .finally(() => {
+                    setDeletingId("");
+                });
+        },
+        [router]
+    );
 
     useEffect(() => {
-        document.title=`${currentUser?.name?.split(' ')[0]}'s Reservations`;
+        document.title = `${currentUser?.name?.split(" ")[0]}'s Reservations`;
     }, [currentUser]);
 
     return (
-
         <Container>
             <Heading
                 title="Reservations"
-                subtitle="Bookings on your properties"
+                subtitle="Bookings on your activities"
             />
             <div
-                className="
-                    mt-10
-                    grid
-                    grid-cols-1
-                    sm:grid-cols-2
-                    md:grid-cols-3
-                    lg:grid-cols-4
-                    3xl:grid-cols-5
-                    4xl:grid-cols-6
-                    gap-8
-                "
+                className="grid grid-cols-1 gap-8 mt-10  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 3xl:grid-cols-5 4xl:grid-cols-6"
             >
                 {reservations.map((res, index) => (
                     <ListingCard
@@ -80,6 +73,6 @@ const ReservationsClient : React.FC<ReservationClientProps> = ({
             </div>
         </Container>
     );
-}
- 
+};
+
 export default ReservationsClient;
