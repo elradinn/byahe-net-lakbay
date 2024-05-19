@@ -118,7 +118,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
                                 <div className="my-2 bg-neutral-200 w-full h-[1px]" />
                                 <MenuItem
                                     onClick={rentModal.onOpen}
-                                    label="Add New Property"
+                                    label="Add New Activity"
                                     isBold
                                 />
 
