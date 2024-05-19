@@ -15,7 +15,7 @@ const Landing = () => {
                                 width="95"
                                 height="94"
                                 viewBox="0 0 95 94"
-                                className="w-6 h-auto text-indigo-500"
+                                className="w-6 h-auto text-emerald-500"
                                 fill="currentColor"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
@@ -27,25 +27,25 @@ const Landing = () => {
                         <nav className="hidden gap-12 lg:flex">
                             <a
                                 href="#"
-                                className="text-lg font-semibold text-indigo-500"
+                                className="text-lg font-semibold text-emerald-500"
                             >
                                 Home
                             </a>
                             <a
                                 href="#"
-                                className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+                                className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-emerald-500 active:text-emerald-700"
                             >
                                 Features
                             </a>
                             <a
                                 href="#"
-                                className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+                                className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-emerald-500 active:text-emerald-700"
                             >
                                 Pricing
                             </a>
                             <a
                                 href="#"
-                                className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+                                className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-emerald-500 active:text-emerald-700"
                             >
                                 About
                             </a>
@@ -53,14 +53,14 @@ const Landing = () => {
 
                         <a
                             href="#"
-                            className="hidden px-8 py-3 text-sm font-semibold text-center text-gray-500 transition duration-100 bg-gray-200 rounded-lg outline-none ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:inline-block"
+                            className="hidden px-8 py-3 text-sm font-semibold text-center text-gray-500 transition duration-100 bg-gray-200 rounded-lg outline-none ring-emerald-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:inline-block"
                         >
                             Contact Sales
                         </a>
 
                         <button
                             type="button"
-                            className="inline-flex items-center gap-2 rounded-lg bg-gray-200 px-2.5 py-2 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:hidden"
+                            className="inline-flex items-center gap-2 rounded-lg bg-gray-200 px-2.5 py-2 text-sm font-semibold text-gray-500 ring-emerald-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:hidden"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ const Landing = () => {
 
                     <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
                         <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
-                            <p className="mb-4 font-semibold text-indigo-500 md:mb-6 md:text-lg xl:text-xl">
+                            <p className="mb-4 font-semibold text-emerald-500 md:mb-6 md:text-lg xl:text-xl">
                                 Very proud to introduce
                             </p>
 
@@ -89,23 +89,24 @@ const Landing = () => {
                             </h1>
 
                             <p className="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
-                                This is a section of some simple filler text,
-                                also known as placeholder text. It shares some
-                                characteristics of a real written text but is
-                                random.
+                                Whether you are an individual traveler or a tour
+                                operator, our system provides the tools you need
+                                to optimize your journeys, enhance customer
+                                satisfaction, and streamline operations, making
+                                every trip unforgettable.
                             </p>
 
                             <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
                                 <a
-                                    href="#"
-                                    className="inline-block px-8 py-3 text-sm font-semibold text-center text-white transition duration-100 bg-indigo-500 rounded-lg outline-none ring-indigo-300 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base"
+                                    href="/"
+                                    className="inline-block px-8 py-3 text-sm font-semibold text-center text-white transition duration-100 rounded-lg outline-none bg-emerald-500 ring-emerald-300 hover:bg-emerald-600 focus-visible:ring active:bg-emerald-700 md:text-base"
                                 >
                                     Start now
                                 </a>
 
                                 <a
                                     href="#"
-                                    className="inline-block px-8 py-3 text-sm font-semibold text-center text-gray-500 transition duration-100 bg-gray-200 rounded-lg outline-none ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base"
+                                    className="inline-block px-8 py-3 text-sm font-semibold text-center text-gray-500 transition duration-100 bg-gray-200 rounded-lg outline-none ring-emerald-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base"
                                 >
                                     Take tour
                                 </a>
@@ -114,7 +115,7 @@ const Landing = () => {
 
                         <div className="h-48 overflow-hidden bg-gray-100 rounded-lg shadow-lg lg:h-auto xl:w-5/12">
                             <img
-                                src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+                                src="https://images.unsplash.com/photo-1632307644226-a3d85fde46a5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                 loading="lazy"
                                 alt="Photo by Fakurian Design"
                                 className="object-cover object-center w-full h-full"
@@ -141,7 +142,7 @@ const Landing = () => {
 
                     <div className="grid gap-8 sm:grid-cols-2 md:gap-12 xl:grid-cols-3 xl:gap-16">
                         <div className="flex gap-4 md:gap-6">
-                            <div className="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-lg shadow-lg shrink-0 md:h-14 md:w-14 md:rounded-xl">
+                            <div className="flex items-center justify-center w-12 h-12 text-white rounded-lg shadow-lg bg-emerald-500 shrink-0 md:h-14 md:w-14 md:rounded-xl">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="w-6 h-6"
@@ -169,7 +170,7 @@ const Landing = () => {
                                 </p>
                                 <a
                                     href="#"
-                                    className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
+                                    className="font-bold transition duration-100 text-emerald-500 hover:text-emerald-600 active:text-emerald-700"
                                 >
                                     More
                                 </a>
@@ -177,7 +178,7 @@ const Landing = () => {
                         </div>
 
                         <div className="flex gap-4 md:gap-6">
-                            <div className="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-lg shadow-lg shrink-0 md:h-14 md:w-14 md:rounded-xl">
+                            <div className="flex items-center justify-center w-12 h-12 text-white rounded-lg shadow-lg bg-emerald-500 shrink-0 md:h-14 md:w-14 md:rounded-xl">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="w-6 h-6"
@@ -205,7 +206,7 @@ const Landing = () => {
                                 </p>
                                 <a
                                     href="#"
-                                    className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
+                                    className="font-bold transition duration-100 text-emerald-500 hover:text-emerald-600 active:text-emerald-700"
                                 >
                                     More
                                 </a>
@@ -213,7 +214,7 @@ const Landing = () => {
                         </div>
 
                         <div className="flex gap-4 md:gap-6">
-                            <div className="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-lg shadow-lg shrink-0 md:h-14 md:w-14 md:rounded-xl">
+                            <div className="flex items-center justify-center w-12 h-12 text-white rounded-lg shadow-lg bg-emerald-500 shrink-0 md:h-14 md:w-14 md:rounded-xl">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="w-6 h-6"
@@ -241,7 +242,7 @@ const Landing = () => {
                                 </p>
                                 <a
                                     href="#"
-                                    className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
+                                    className="font-bold transition duration-100 text-emerald-500 hover:text-emerald-600 active:text-emerald-700"
                                 >
                                     More
                                 </a>
@@ -249,7 +250,7 @@ const Landing = () => {
                         </div>
 
                         <div className="flex gap-4 md:gap-6">
-                            <div className="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-lg shadow-lg shrink-0 md:h-14 md:w-14 md:rounded-xl">
+                            <div className="flex items-center justify-center w-12 h-12 text-white rounded-lg shadow-lg bg-emerald-500 shrink-0 md:h-14 md:w-14 md:rounded-xl">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="w-6 h-6"
@@ -277,7 +278,7 @@ const Landing = () => {
                                 </p>
                                 <a
                                     href="#"
-                                    className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
+                                    className="font-bold transition duration-100 text-emerald-500 hover:text-emerald-600 active:text-emerald-700"
                                 >
                                     More
                                 </a>
@@ -285,7 +286,7 @@ const Landing = () => {
                         </div>
 
                         <div className="flex gap-4 md:gap-6">
-                            <div className="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-lg shadow-lg shrink-0 md:h-14 md:w-14 md:rounded-xl">
+                            <div className="flex items-center justify-center w-12 h-12 text-white rounded-lg shadow-lg bg-emerald-500 shrink-0 md:h-14 md:w-14 md:rounded-xl">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="w-6 h-6"
@@ -313,7 +314,7 @@ const Landing = () => {
                                 </p>
                                 <a
                                     href="#"
-                                    className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
+                                    className="font-bold transition duration-100 text-emerald-500 hover:text-emerald-600 active:text-emerald-700"
                                 >
                                     More
                                 </a>
@@ -321,7 +322,7 @@ const Landing = () => {
                         </div>
 
                         <div className="flex gap-4 md:gap-6">
-                            <div className="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-lg shadow-lg shrink-0 md:h-14 md:w-14 md:rounded-xl">
+                            <div className="flex items-center justify-center w-12 h-12 text-white rounded-lg shadow-lg bg-emerald-500 shrink-0 md:h-14 md:w-14 md:rounded-xl">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="w-6 h-6"
@@ -349,7 +350,7 @@ const Landing = () => {
                                 </p>
                                 <a
                                     href="#"
-                                    className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
+                                    className="font-bold transition duration-100 text-emerald-500 hover:text-emerald-600 active:text-emerald-700"
                                 >
                                     More
                                 </a>
@@ -443,7 +444,7 @@ const Landing = () => {
 
                     <div className="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-0 md:divide-x">
                         <div className="flex flex-col items-center md:p-4">
-                            <div className="text-xl font-bold text-indigo-500 sm:text-2xl md:text-3xl">
+                            <div className="text-xl font-bold text-emerald-500 sm:text-2xl md:text-3xl">
                                 200
                             </div>
                             <div className="text-sm font-semibold sm:text-base">
@@ -452,7 +453,7 @@ const Landing = () => {
                         </div>
 
                         <div className="flex flex-col items-center md:p-4">
-                            <div className="text-xl font-bold text-indigo-500 sm:text-2xl md:text-3xl">
+                            <div className="text-xl font-bold text-emerald-500 sm:text-2xl md:text-3xl">
                                 500+
                             </div>
                             <div className="text-sm font-semibold sm:text-base">
@@ -461,7 +462,7 @@ const Landing = () => {
                         </div>
 
                         <div className="flex flex-col items-center md:p-4">
-                            <div className="text-xl font-bold text-indigo-500 sm:text-2xl md:text-3xl">
+                            <div className="text-xl font-bold text-emerald-500 sm:text-2xl md:text-3xl">
                                 1000+
                             </div>
                             <div className="text-sm font-semibold sm:text-base">
@@ -470,7 +471,7 @@ const Landing = () => {
                         </div>
 
                         <div className="flex flex-col items-center md:p-4">
-                            <div className="text-xl font-bold text-indigo-500 sm:text-2xl md:text-3xl">
+                            <div className="text-xl font-bold text-emerald-500 sm:text-2xl md:text-3xl">
                                 A couple
                             </div>
                             <div className="text-sm font-semibold sm:text-base">
@@ -508,7 +509,7 @@ const Landing = () => {
                             </div>
 
                             <div>
-                                <div className="font-bold text-center text-indigo-500 md:text-lg">
+                                <div className="font-bold text-center text-emerald-500 md:text-lg">
                                     John McCulling
                                 </div>
                                 <p className="mb-3 text-sm text-center text-gray-500 md:mb-4 md:text-base">
@@ -566,7 +567,7 @@ const Landing = () => {
                             </div>
 
                             <div>
-                                <div className="font-bold text-center text-indigo-500 md:text-lg">
+                                <div className="font-bold text-center text-emerald-500 md:text-lg">
                                     Kate Berg
                                 </div>
                                 <p className="mb-3 text-sm text-center text-gray-500 md:mb-4 md:text-base">
@@ -623,7 +624,7 @@ const Landing = () => {
                             </div>
 
                             <div>
-                                <div className="font-bold text-center text-indigo-500 md:text-lg">
+                                <div className="font-bold text-center text-emerald-500 md:text-lg">
                                     Greg Jackson
                                 </div>
                                 <p className="mb-3 text-sm text-center text-gray-500 md:mb-4 md:text-base">
@@ -681,7 +682,7 @@ const Landing = () => {
                             </div>
 
                             <div>
-                                <div className="font-bold text-center text-indigo-500 md:text-lg">
+                                <div className="font-bold text-center text-emerald-500 md:text-lg">
                                     Robert Greyson
                                 </div>
                                 <p className="mb-3 text-sm text-center text-gray-500 md:mb-4 md:text-base">
@@ -739,7 +740,7 @@ const Landing = () => {
                             </div>
 
                             <div>
-                                <div className="font-bold text-center text-indigo-500 md:text-lg">
+                                <div className="font-bold text-center text-emerald-500 md:text-lg">
                                     John Roberts
                                 </div>
                                 <p className="mb-3 text-sm text-center text-gray-500 md:mb-4 md:text-base">
@@ -797,7 +798,7 @@ const Landing = () => {
                             </div>
 
                             <div>
-                                <div className="font-bold text-center text-indigo-500 md:text-lg">
+                                <div className="font-bold text-center text-emerald-500 md:text-lg">
                                     Judy Amandez
                                 </div>
                                 <p className="mb-3 text-sm text-center text-gray-500 md:mb-4 md:text-base">
@@ -855,7 +856,7 @@ const Landing = () => {
                             </div>
 
                             <div>
-                                <div className="font-bold text-center text-indigo-500 md:text-lg">
+                                <div className="font-bold text-center text-emerald-500 md:text-lg">
                                     Rahul Williams
                                 </div>
                                 <p className="mb-3 text-sm text-center text-gray-500 md:mb-4 md:text-base">
@@ -913,7 +914,7 @@ const Landing = () => {
                             </div>
 
                             <div>
-                                <div className="font-bold text-center text-indigo-500 md:text-lg">
+                                <div className="font-bold text-center text-emerald-500 md:text-lg">
                                     Ari Ferris
                                 </div>
                                 <p className="mb-3 text-sm text-center text-gray-500 md:mb-4 md:text-base">
@@ -987,7 +988,7 @@ const Landing = () => {
                                 </div>
 
                                 <div>
-                                    <div className="text-sm font-bold text-center text-indigo-500 sm:text-left md:text-base">
+                                    <div className="text-sm font-bold text-center text-emerald-500 sm:text-left md:text-base">
                                         John McCulling
                                     </div>
                                     <p className="text-sm text-center text-gray-500 sm:text-left md:text-sm">
@@ -1013,7 +1014,7 @@ const Landing = () => {
                                 </div>
 
                                 <div>
-                                    <div className="text-sm font-bold text-center text-indigo-500 sm:text-left md:text-base">
+                                    <div className="text-sm font-bold text-center text-emerald-500 sm:text-left md:text-base">
                                         Kate Berg
                                     </div>
                                     <p className="text-sm text-center text-gray-500 sm:text-left md:text-sm">
@@ -1039,7 +1040,7 @@ const Landing = () => {
                                 </div>
 
                                 <div>
-                                    <div className="text-sm font-bold text-center text-indigo-500 sm:text-left md:text-base">
+                                    <div className="text-sm font-bold text-center text-emerald-500 sm:text-left md:text-base">
                                         Greg Jackson
                                     </div>
                                     <p className="text-sm text-center text-gray-500 sm:text-left md:text-sm">
@@ -1055,7 +1056,7 @@ const Landing = () => {
                 <div className="px-4 mx-auto max-w-screen-2xl md:px-8">
                     <div className="flex flex-col items-center p-4 bg-gray-100 rounded-lg sm:p-8">
                         <div className="mb-4 sm:mb-8">
-                            <h2 className="text-xl font-bold text-center text-indigo-500 sm:text-2xl lg:text-3xl">
+                            <h2 className="text-xl font-bold text-center text-emerald-500 sm:text-2xl lg:text-3xl">
                                 Get the latest updates
                             </h2>
                             <p className="text-center text-gray-500">
@@ -1066,10 +1067,10 @@ const Landing = () => {
                         <form className="flex w-full max-w-md gap-2 mb-3 sm:mb-5">
                             <input
                                 placeholder="Email"
-                                className="flex-1 w-full px-3 py-2 text-gray-800 placeholder-gray-400 transition duration-100 border border-gray-300 rounded outline-none bg-gray-white ring-indigo-300 focus:ring"
+                                className="flex-1 w-full px-3 py-2 text-gray-800 placeholder-gray-400 transition duration-100 border border-gray-300 rounded outline-none bg-gray-white ring-emerald-300 focus:ring"
                             />
 
-                            <button className="inline-block px-8 py-2 text-sm font-semibold text-center text-white transition duration-100 bg-indigo-500 rounded outline-none ring-indigo-300 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">
+                            <button className="inline-block px-8 py-2 text-sm font-semibold text-center text-white transition duration-100 rounded outline-none bg-emerald-500 ring-emerald-300 hover:bg-emerald-600 focus-visible:ring active:bg-emerald-700 md:text-base">
                                 Send
                             </button>
                         </form>
@@ -1078,14 +1079,14 @@ const Landing = () => {
                             By signing up to our newsletter you agree to our{" "}
                             <a
                                 href="#"
-                                className="underline transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                className="underline transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                             >
                                 Term of Service
                             </a>{" "}
                             and{" "}
                             <a
                                 href="#"
-                                className="underline transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                className="underline transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                             >
                                 Privacy Policy
                             </a>
@@ -1109,7 +1110,7 @@ const Landing = () => {
                                         width="95"
                                         height="94"
                                         viewBox="0 0 95 94"
-                                        className="w-5 h-auto text-indigo-500"
+                                        className="w-5 h-auto text-emerald-500"
                                         fill="currentColor"
                                         xmlns="http://www.w3.org/2000/svg"
                                     >
@@ -1204,7 +1205,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         Overview
                                     </a>
@@ -1213,7 +1214,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         Solutions
                                     </a>
@@ -1222,7 +1223,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         Pricing
                                     </a>
@@ -1231,7 +1232,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         Customers
                                     </a>
@@ -1247,7 +1248,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         About
                                     </a>
@@ -1256,7 +1257,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         Investor Relations
                                     </a>
@@ -1265,7 +1266,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         Jobs
                                     </a>
@@ -1274,7 +1275,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         Press
                                     </a>
@@ -1283,7 +1284,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         Blog
                                     </a>
@@ -1299,7 +1300,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         Contact
                                     </a>
@@ -1308,7 +1309,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         Documentation
                                     </a>
@@ -1317,7 +1318,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         Chat
                                     </a>
@@ -1326,7 +1327,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         FAQ
                                     </a>
@@ -1342,7 +1343,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         Terms of Service
                                     </a>
@@ -1351,7 +1352,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         Privacy Policy
                                     </a>
@@ -1360,7 +1361,7 @@ const Landing = () => {
                                 <div>
                                     <a
                                         href="#"
-                                        className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                                        className="text-gray-400 transition duration-100 hover:text-emerald-500 active:text-emerald-600"
                                     >
                                         Cookie settings
                                     </a>

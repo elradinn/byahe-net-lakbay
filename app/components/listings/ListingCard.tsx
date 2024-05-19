@@ -97,7 +97,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
                 <div className="flex flex-row items-center w-full gap-3 text-lg font-semibold whitespace-nowrap">
                     {location?.region}, {location?.label}{" "}
                     {newest && (
-                        <div className="text-sm font-semibold text-indigo-500">
+                        <div className="text-sm font-semibold text-emerald-500">
                             <BsStars />
                         </div>
                     )}

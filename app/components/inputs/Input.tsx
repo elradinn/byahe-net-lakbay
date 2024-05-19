@@ -55,10 +55,10 @@ const Input: React.FC<InputProps> = ({
                     disabled:opacity-70
                     disabled:cursor-not-allowed
                     ${formatPrice ? "pl-9" : "pl-4"}
-                    ${errors[id] ? "border-indigo-500" : "border-neutral-300"}
+                    ${errors[id] ? "border-emerald-500" : "border-neutral-300"}
                     ${
                         errors[id]
-                            ? "focus:border-indigo-500"
+                            ? "focus:border-emerald-500"
                             : "focus:border-black"
                     }
                 `}
@@ -78,7 +78,7 @@ const Input: React.FC<InputProps> = ({
                     peer-placeholder-shown:translate-y-0
                     peer-focus:scale-75
                     peer-focus:-translate-y-4
-                    ${errors[id] ? "text-indigo-500" : "text-zinc-400"}
+                    ${errors[id] ? "text-emerald-500" : "text-zinc-400"}
                 `}
             >
                 {label}

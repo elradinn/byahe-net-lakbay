@@ -35,7 +35,7 @@ const Button: React.FC<ButtonProps> = ({
                 ${
                     outline
                         ? "bg-white"
-                        : "bg-gradient-to-r from-indigo-500 to-blue-600"
+                        : "bg-gradient-to-r from-emerald-500 to-green-600"
                 }
                 ${outline ? "border-black" : "border-blue-600"}
                 ${outline ? "text-black" : "text-white"}

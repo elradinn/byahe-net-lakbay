@@ -13,8 +13,8 @@ import getCurrentUser from "./actions/getCurrentUser";
 import SearchModal from "./components/modals/SearchModal";
 
 export const metadata = {
-    title: "Vacation Homes & Condo Rentals - Byahe.net - Byahe.net",
-    description: "My Byahe.net Clone!",
+    title: "Byahe.net Lakbay Property Management System",
+    description: "Byahe.net",
 };
 
 const font = Nunito({

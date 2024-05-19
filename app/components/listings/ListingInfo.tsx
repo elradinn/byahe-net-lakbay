@@ -10,7 +10,7 @@ import Avatar from "../Avatar";
 import ListingCategory from "./ListingCategory";
 import { GrGroup } from "react-icons/gr";
 import { MdOutlineBedroomParent } from "react-icons/md";
-import { FaShower } from "react-icons/fa";
+import { FaClock, FaShower } from "react-icons/fa";
 
 const Map = dynamic(() => import("../Map"), {
     ssr: false,
@@ -48,14 +48,15 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
     return (
         <div className="flex-col col-span-4 gap-8">
             <div className="flex flex-col gap-2">
-                <div
-                    className="flex flex-row items-center justify-between gap-4 font-light  text-neutral-800"
-                >
+                <div className="flex flex-row items-center justify-between gap-4 font-light text-neutral-800">
                     <div className="flex flex-row items-center justify-center flex-grow gap-3 py-6 border rounded-xl border-neutral-300">
-                        <GrGroup size={24} />
-                        {guestCount} {guestCount > 1 ? "guests" : "guest"}
+                        <FaClock size={24} />
+                        {guestCount}{" "}
+                        {guestCount > 1
+                            ? "hours approximate"
+                            : "hours approximate"}
                     </div>
-                    <div className="flex flex-row items-center justify-center flex-grow gap-3 py-6 border rounded-xl border-neutral-300">
+                    {/* <div className="flex flex-row items-center justify-center flex-grow gap-3 py-6 border rounded-xl border-neutral-300">
                         <MdOutlineBedroomParent size={24} />
                         {roomCount} {roomCount > 1 ? "rooms" : "room"}
                     </div>
@@ -63,7 +64,7 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
                         <FaShower size={24} />
                         {bathroomCount}{" "}
                         {bathroomCount > 1 ? "bathrooms" : "bathroom"}
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <hr className="my-6" />

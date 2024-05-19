@@ -185,7 +185,7 @@ const ListingClient: React.FC<ListingClientProps> = ({
                                     <div className="font-light">
                                         <strong className="font-semibold">This is a rare find.</strong> {listing.user.name?.split(' ')[0]}&apos;s place on Byahe.net is usually fully booked.
                                     </div>
-                                    <IoDiamondOutline className="ml-4 text-indigo-500" size={50} />
+                                    <IoDiamondOutline className="ml-4 text-emerald-500" size={50} />
                                 </div>
                                 <div className="flex items-center justify-center gap-3 mt-6 cursor-pointer text-neutral-600">
                                         <AiTwotoneFlag />
